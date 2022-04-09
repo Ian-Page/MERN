@@ -1,0 +1,49 @@
+.App{
+  display:flex;
+  justify-content: center;
+}
+
+#box{
+  animation-name: backgroundColor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 250px;
+  height:300px;
+  background-color: aqua;
+
+  justify-content: center;
+  padding-left: 20px;
+
+}
+
+.list{
+  display:flex;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+@keyframes backgroundColor {
+  0% {
+    background: #ee6055;
+  }
+  25% {
+    background: #60d394;
+  }
+  50% {
+    background: #aaf683;
+  }
+  75% {
+    background: #ffd97d;
+  }
+  100% {
+    background: #ff9b85;
+  }
+  from {
+    transform: translatey(0%);
+  }
+
+  to {
+    transform: translatey(100%);
+  }
+}
