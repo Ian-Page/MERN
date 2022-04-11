@@ -1,0 +1,31 @@
+.App {
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  background-color: rgb(155, 88, 183);
+  Width: 600px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+.minibox{
+  background-color: rgb(228, 208, 235);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  
+
+  transition: background-color 1s ease-out 100ms;
+}
+
+.minibox:hover {
+  background-color: rgb(186, 8, 226);
+}
