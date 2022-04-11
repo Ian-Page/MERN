@@ -12,6 +12,8 @@
   border-width: 5px;
   border-color: rgb(0, 0, 0);
   border-style: solid;
+  transition: background-color 2s ease-in-out 100ms;
+  /*background: radial-gradient(100% 100%, rgb(234, 181, 227) 0%, rgb(181, 17, 241) 80%);*/
 }
 .minibox{
   background-color: rgb(228, 208, 235);
@@ -21,11 +23,12 @@
   border-width: 5px;
   border-color: rgb(0, 0, 0);
   border-style: solid;
-  
-
-  transition: background-color 1s ease-out 100ms;
+  transition: background-color .5s ease-in-out 100ms;
 }
 
-.minibox:hover {
-  background-color: rgb(186, 8, 226);
+.minibox:hover{
+  background-color: rgb(133, 220, 187);
+}
+.box:hover{
+  background-color: rgb(153, 17, 244);
 }
