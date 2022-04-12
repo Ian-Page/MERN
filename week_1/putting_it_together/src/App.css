@@ -6,29 +6,63 @@
   align-items: center;
 }
 .box{
-  background-color: rgb(155, 88, 183);
-  Width: 600px;
-  border-radius: 100px;
-  border-width: 5px;
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
-  transition: background-color 2s ease-in-out 100ms;
-  /*background: radial-gradient(100% 100%, rgb(234, 181, 227) 0%, rgb(181, 17, 241) 80%);*/
-}
-.minibox{
-  background-color: rgb(228, 208, 235);
-  margin: 20px;
-  padding: 5px;
+  background-color: rgb(63, 107, 82);
+  Width: 700px;
   border-radius: 100px;
   border-width: 5px;
   border-color: rgb(0, 0, 0);
   border-style: solid;
   transition: background-color .5s ease-in-out 100ms;
+  /*background: radial-gradient(100% 100%, rgb(234, 181, 227) 0%, rgb(181, 17, 241) 80%);*/
+}
+.minibox{
+  Height: 200px;
+  background-color: rgb(184, 208, 192);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 150px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  display: flex;
+  justify-content: space-evenly;
+  
+  transition: background-color .5s ease-in-out 100ms;
 }
 
 .minibox:hover{
-  background-color: rgb(133, 220, 187);
+  background-color:  rgb(63, 107, 82) ;
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 30px 0px rgb(14, 14, 15);
+  transition: background-color .5s ease-in-out 100ms;
+  transition: box-shadow .5s ease-out 100ms;
+  transition: transform .5s ease-in 100ms;
+  
 }
 .box:hover{
-  background-color: rgb(153, 17, 244);
+  background-color: rgb(160, 188, 171);
+}
+
+.butt{
+  background-color: rgb(70, 226, 43);
+  border-radius: 20px;
+  border-color:rgb(4, 92, 9)
+
+}
+.butt:hover{
+  background-color: rgb(197, 200, 15);
+  /*transform: translateY(-2px);*/
+  box-shadow: 0px 3px 10px 0px rgb(14, 14, 15);
+}
+.pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.circlepic{
+  padding-left: 220px;
+  padding-top: -10px;
+}
+.peroninfo{
+  padding-left: 40px;
 }
