@@ -1,1 +1,6 @@
 create a react app: npx create-react-app first_react_app
+
+
+CSS cool jobs Ui/ux
+https://www.frontendmentor.io/home
+https://react-bootstrap.github.io/

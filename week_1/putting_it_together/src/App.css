@@ -1,0 +1,34 @@
+.App {
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  background-color: rgb(155, 88, 183);
+  Width: 600px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  transition: background-color 2s ease-in-out 100ms;
+  /*background: radial-gradient(100% 100%, rgb(234, 181, 227) 0%, rgb(181, 17, 241) 80%);*/
+}
+.minibox{
+  background-color: rgb(228, 208, 235);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  transition: background-color .5s ease-in-out 100ms;
+}
+
+.minibox:hover{
+  background-color: rgb(133, 220, 187);
+}
+.box:hover{
+  background-color: rgb(153, 17, 244);
+}
