@@ -1,0 +1,28 @@
+.App {
+  width:auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 200px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 50px;
+  color: rgb(220, 20, 60);
+  
+  
+}
+
+
+.formblock{
+  background-color: crimson;
+  height: 60px;
+  width: 200px;
+  color: rgb(0, 0, 0);
+}
