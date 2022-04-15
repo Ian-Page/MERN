@@ -1,0 +1,34 @@
+.App {
+  width:auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  width: 250px;
+  height: auto;
+  background-color: rgb(247, 64, 168);
+  border-radius: 20px;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+  
+  
+}
+
+
+.form{
+width: 200px;
+align-items: center;
+justify-content: center;
+}
+
+.validationbox{
+  color: black;
+  background-color: rgb(11, 225, 253);
+}
