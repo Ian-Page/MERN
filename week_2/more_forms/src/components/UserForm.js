@@ -74,7 +74,7 @@ const UserForm = (props) => {
             </div>
         </div>
         <div className='formblock'>
-        <input type="submit" value="Create User" />
+        <input type="submit" value="Create User" className='button'/>
         </div>
         
     </form>
