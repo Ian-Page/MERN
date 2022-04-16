@@ -5,9 +5,9 @@ const FormDetails = (props) => {
     <div>
         <p>Firstname: {props.firstname}</p>
         <p>Lastname: {props.lastname}</p>
-        <p>email: {props.email}</p>
-        <p>password: {props.password}</p>
-        <p>verify-password: {props.verifypassword}</p>
+        <p>Email: {props.email}</p>
+        <p>Password: {props.password}</p>
+        <p>Verify-Password: {props.verifypassword}</p>
     </div>
     )
 }

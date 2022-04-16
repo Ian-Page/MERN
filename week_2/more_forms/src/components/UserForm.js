@@ -46,7 +46,7 @@ const UserForm = (props) => {
             </div>
         </div>
         <div className='formblock'>
-            <label>last name: </label> 
+            <label>Last name: </label> 
             <input type="text" onChange={ (e) => setLastname(e.target.value) } />
             <div className='validationbox'>
                 {lastname.length < 2 && lastname.length > 0 ? (<p>Must be at least 2 characters!</p>):null}
@@ -78,13 +78,15 @@ const UserForm = (props) => {
         </div>
         
     </form>
-        <FormDetails 
+        <div className='det'>
+        <FormDetails
         firstname = {firstname}
         lastname = {lastname}
         email ={email}
         password ={password}
         verifypassword={verifypassword}
         />
+        </div>
         
     </>
     );
