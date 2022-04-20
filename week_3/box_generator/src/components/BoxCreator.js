@@ -8,7 +8,7 @@ const BoxCreator = (props) => {
 
     event.preventDefault();
 
-    console.log(BoxArray);
+
     setBoxArray( [ ...BoxArray, 
     { 
         color: color,
