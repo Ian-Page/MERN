@@ -8,7 +8,7 @@ function App() {
     {label: "tab 1", content: "johny rocket"},
     {label: "tab 2", content: "is a stupid"},
     {label: "tab 3", content: "name for a character"},
-    {label: "tab 4", content: "tabman is way cooler"},
+    {label: "tab 4", content: "TabMan is way cooler"},
   ];
 
   const [ allTabs, setAllTabs ] = useState(tabsArray);

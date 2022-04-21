@@ -1,14 +1,14 @@
 .tab {
   text-align: center;
   display: inline-block;
-  margin: 2px;
+  margin: 10px;
   padding: 10px 20px;
   border-radius: 20px;
 }
 
 .selectedTab {
   color: white;
-  background-color: rgb(246, 10, 10);
+  background-color: rgb(148, 10, 246);
   border: 2px solid black;
   border-radius: 20px;
 }
@@ -24,7 +24,7 @@
   width: 85%;
   height: 100px;
   margin: auto;
-  border: 2px solid #ef0000;
+  border: 2px solid rgb(148, 10, 246);
   border-radius: 20px;
 }
 
