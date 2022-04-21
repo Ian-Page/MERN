@@ -1,0 +1,39 @@
+.tab {
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.selectedTab {
+  color: white;
+  background-color: rgb(246, 10, 10);
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.nonSelectedTab {
+  color: black;
+  background-color: white;
+  border: 2px solid #bbbbbb;
+  border-radius: 20px;
+}
+
+.results {
+  width: 85%;
+  height: 100px;
+  margin: auto;
+  border: 2px solid #ef0000;
+  border-radius: 20px;
+}
+
+.App {
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
