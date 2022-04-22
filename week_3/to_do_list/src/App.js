@@ -37,6 +37,7 @@ const handleToggleComplete = (idx)=>{
 
   return (
     <div className="App">
+      <div className='container'>
       <h1>MAKE A TO-DO LIST</h1>
       <form onSubmit={(event) => {handleNewSubmit (event);}}>
         <input onChange={(event) => {
@@ -53,9 +54,11 @@ const handleToggleComplete = (idx)=>{
         handleToggleComplete= {handleToggleComplete} 
         handleDelete={handleDelete}
         i={i}/>;
-
+        
       })}
         
+      </div>
+      <footer className="foot">Coded and Created by Ian Page 2022</footer>
     </div>
   );
 }

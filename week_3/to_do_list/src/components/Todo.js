@@ -7,7 +7,9 @@ const Todo =(props) => {
     <div>
     <input onChange={(event)=>{
     props.handleToggleComplete(props.i);
-    }} checked ={props.todo.complete} type="checkbox"/>Mark as completed!
+    }} checked ={props.todo.complete} type="checkbox"/>
+    
+    <span className="markas">Mark as completed!</span>
 
     <div className = {todoClasses.join(" ")}>{props.todo.text}</div>
 
