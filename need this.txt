@@ -1,5 +1,13 @@
 create a react app: npx create-react-app first_react_app
 
+axios poke mon assignment:
+
+npm i axios@0.26.1
+
+Routing Practivce
+'npm react-router-bom'
+
+
 
 CSS cool jobs Ui/ux
 https://www.frontendmentor.io/home
