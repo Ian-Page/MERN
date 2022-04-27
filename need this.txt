@@ -5,7 +5,7 @@ axios poke mon assignment:
 npm i axios@0.26.1
 
 Routing Practivce
-'npm react-router-bom'
+'npm react-router-dom'
 
 
 
