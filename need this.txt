@@ -12,3 +12,11 @@ Routing Practivce
 CSS cool jobs Ui/ux
 https://www.frontendmentor.io/home
 https://react-bootstrap.github.io/
+
+week 4 day 2
+npm i -g nodemon 
+https://www.postman.com/downloads/
+https://fakerjs.dev/guide/
+
+
+

@@ -10,22 +10,22 @@ const Params= (props) =>{
         <div>
             {
                 isNaN(word)?
-                <p style={
+                <h1 style={
                     color?
                     {color: color,backgroundColor: bgCol}
                     :null
                 }>
                 
                     This is a word : {word}
-                </p>
+                </h1>
                 :
-                <p style={
+                <h1 style={
                     color?
                     {color: color,backgroundColor: bgCol}
                     :null
                 }>
                     This is a number : {word}
-                </p>
+                </h1>
             }
 
         </div>
