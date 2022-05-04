@@ -11,3 +11,4 @@ JokeRoutes(app);
 
 app.listen(port, () => console.log(`Express running on port ${port}`));
 
+console.log()
