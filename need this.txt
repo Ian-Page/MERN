@@ -17,6 +17,19 @@ week 4 day 2
 npm i -g nodemon 
 https://www.postman.com/downloads/
 https://fakerjs.dev/guide/
+MERN fullstack make your folders
+    server - This is your backend server / project folder and will hold all server related files
+        config - will handle the database configuration and connection
+        controllers - will hold all logic for each model (i.e creating, updating, etc...)
+        models - will hold all the schemas
+        routes - will handle all of our routes for each model
+        server.js - will handle all the server logic with express
+
+Once you have created the server.js file and the folders, open a new terminal window and navigate into your project folder (labeled as server in the image above) and install the server dependencies by running:
+
+npm init -y
+npm install mongoose express
+echo "node_modules">> .gitignore
 
 
 
