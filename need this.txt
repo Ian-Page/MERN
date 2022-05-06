@@ -32,4 +32,8 @@ npm install mongoose express
 echo "node_modules">> .gitignore
 
 
+make sure you intall npm init  and mongoose express from server root
+Client root folder is the react npm start...open 2 terminals. cd to each directory server /client
+
+
 
