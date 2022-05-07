@@ -26,9 +26,9 @@ MERN fullstack make your folders
         server.js - will handle all the server logic with express
 
 Once you have created the server.js file and the folders, open a new terminal window and navigate into your project folder (labeled as server in the image above) and install the server dependencies by running:
-
+SERVER______
 npm init -y
-npm install mongoose express
+npm install mongoose express cors
 echo "node_modules">> .gitignore
 
 

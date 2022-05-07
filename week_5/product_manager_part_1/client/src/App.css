@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header{
+  font-size: xx-large;
+  margin: 25px 0px;
+
+}
+.form-fields{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+  margin: 10px;
+  box-shadow: 2px 0px 4px 1px;
+  border-radius: 30px;
+  padding: .5rem;
+  background-color: rgb(55, 233, 159);
+
+
+}
+
+.form-fields>input{
+  border-radius: 20px;
+}
+
+.submit-input{
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(121, 209, 239);
+  box-shadow: 2px 0px 4px 1px;
+}
