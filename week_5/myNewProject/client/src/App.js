@@ -1,10 +1,21 @@
 import React from 'react';
-import PersonForm from './components/personForm';
-function App() {
-  return (
-    <div className="App">
-      <PersonForm/>
-    </div>
-  );
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Main from './views/Main';
+import Detail from './components/Detail';
+// import PersonForm from '../components/PersonForm';
+// import PersonList from '../components/PersonList';
+const App = () => {
+    
+    return(
+	<div>
+    	<BrowserRouter>
+            <Routes>
+	    <Route element={<Main/>} path="/home" default />
+        <Route element={<Detail/>} path="/people/:id" />
+            </Routes>
+    	</BrowserRouter>
+        </div>
+    ) 
 }
 export default App;
+
