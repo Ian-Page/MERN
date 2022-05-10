@@ -14,7 +14,7 @@ body {
   background-size: cover;
 }
 .product{
-  background-color: rgb(220, 213, 20);
+  background-color: rgb(130, 190, 227);
   color: black;
   margin: 20px;
   width: 50rem;
@@ -35,7 +35,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: rgb(19, 172, 219);
+  background-color: rgb(19, 169, 219);
 }
 
 header{
