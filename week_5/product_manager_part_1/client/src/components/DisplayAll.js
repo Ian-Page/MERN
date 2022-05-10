@@ -19,7 +19,7 @@ const DisplayAll = (props) =>{
 
     return(
         <div>
-        <h2>All Products</h2>
+        <h2>ALL PRODUCTS</h2>
         {
             productList.map((product,index)=>(
             <div key={product._id}>

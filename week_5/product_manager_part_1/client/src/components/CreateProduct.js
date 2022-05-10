@@ -30,7 +30,7 @@ const CreateProduct = (props) => {
     
     return(
             <div>
-                <header>Product Manager</header>
+                <header>PRODUCT MANAGER</header>
                 <form onSubmit={submitHandler}>
                     <div className='form-fields'>
                         <label>Title</label>

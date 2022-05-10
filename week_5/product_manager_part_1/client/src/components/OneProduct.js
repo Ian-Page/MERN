@@ -21,6 +21,7 @@ const OneProduct = (props) =>{
 
     return(
         <div className="product">
+            <header>Product Manager</header>
             <h2>{oneProduct.title}</h2>
             <p>Price : {oneProduct.price}</p>
             <p>Description: {oneProduct.description}</p>
