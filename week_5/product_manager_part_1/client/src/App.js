@@ -4,6 +4,7 @@ import './App.css';
 import OneProduct from './components/OneProduct';
 import {BrowserRouter ,Routes ,Route} from "react-router-dom";
 import Main from './Views/Main';
+import UpdateProduct from './components/UpdateProduct';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
     <div className="App">
       <Routes>
       <Route path="/" element={<Main/>}/>
-    
       <Route path="/product/:id" element={<OneProduct/>}/>
+      <Route path="/product/edit/:id" element={<UpdateProduct/>}/>
       </Routes>
     </div>
 

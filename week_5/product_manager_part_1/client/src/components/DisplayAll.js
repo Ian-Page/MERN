@@ -17,16 +17,26 @@ const DisplayAll = (props) =>{
         .catch((err) => console.log(err));
     },[])
 
+    const deleteFilter =(idFromBelow) =>{
+        axios.delete(`http://localhost:8000/api/products/${idFromBelow}`)
+        .then ((res)=>{
+            console.log(res.data);
+            setProductList(productList.filter((product, index)=> product._id !== idFromBelow))
+        })
+        .catch((err) => console.log(err));
+    }
+
     return(
         <div>
         <h2>ALL PRODUCTS</h2>
         {
             productList.map((product,index)=>(
             <div key={product._id}>
-                <Link to= {`/product/${product._id}`}>{product.title}</Link>
-                <p></p>
-                <p></p>
-
+                <Link className= "link" to= {`/product/${product._id}`}>{product.title}</Link>
+                <div>
+                <Link className= "linkbut" to={`/product/edit/${product._id}`}>edit</Link>
+                <button onClick={()=> deleteFilter(product._id)}>delete</button>
+                </div>
             </div> 
             )
             

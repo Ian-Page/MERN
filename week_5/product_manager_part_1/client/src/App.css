@@ -13,6 +13,10 @@ body {
   
   background-size: cover;
 }
+.editbutton{
+  width: 20px;
+  background-color: dimgray;
+}
 .product{
   background-color: rgb(130, 190, 227);
   color: black;
@@ -21,7 +25,7 @@ body {
   border-radius: 20px;
   
 }
-a:link, a:visited {
+.link {
   background-color: rgb(246, 227, 125);
   color: rgb(0, 0, 0);
   padding: 20px 100px;
@@ -32,6 +36,19 @@ a:link, a:visited {
   font-size: 20px;
   border-style: solid;
   border-color: black;
+}
+.linkbut{
+  
+  background-color: rgb(255, 242, 0);
+  padding: 9px;
+  border-radius: 9px;
+  color: black;
+}
+button{
+  background-color: deepskyblue;
+  padding: 10px;
+  border-radius: 10px;
+  
 }
 
 a:hover, a:active {
