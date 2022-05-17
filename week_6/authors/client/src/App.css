@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  
+  
+  
+  
+}
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+.delete {
+  background-color: crimson;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.edit{
+
+  background-color: green;
+  height: 30px;
+  border-radius: 5px;
+  
+}
+.trrow{
+  background-color: black;
+  color:white;
+}
+.sub{
+  background-color: rgb(206, 54, 240);
+  height: 30px;
+  border-radius: 5px;
+}
+

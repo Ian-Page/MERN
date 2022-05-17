@@ -1,0 +1,15 @@
+server.js - match cschema
+npm init -y
+server side - install npm install mongoose express cors
+
+create folders and files ====
+mongoose.config.js
+name.models.js
+name.controller.js
+name.routes.js
+
+run post man test the back end calls..
+then client side..
+
+front end - npx create-react-app client
+npm i axios @reach/router --legacy-peer-deps
