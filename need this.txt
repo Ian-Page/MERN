@@ -1,4 +1,4 @@
-create a react app: npx create-react-app first_react_app
+create a react app: npx create-react-app first_react_app or "client"
 
 axios poke mon assignment:
 
@@ -27,13 +27,25 @@ MERN fullstack make your folders
 
 Once you have created the server.js file and the folders, open a new terminal window and navigate into your project folder (labeled as server in the image above) and install the server dependencies by running:
 SERVER______
+create server.js 
 npm init -y
 npm install mongoose express cors
+
 echo "node_modules">> .gitignore
+
+Client
+
+npx create-react-app client (cd client folder)
+npm i axios
+npm i react-router-dom
+
+
 
 
 make sure you intall npm init  and mongoose express from server root
 Client root folder is the react npm start...open 2 terminals. cd to each directory server /client
+
+
 
 
 

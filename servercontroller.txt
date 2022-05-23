@@ -1,0 +1,46 @@
+const Pet = require("../models/pet.model.js");
+
+module.exports= {
+
+    createPet: (req,res) =>{
+        Pet.create(req.body)
+            .then((newPet)=>res.json(newPet))
+            .catch((err) => console.log(err));
+    },
+    getAllPets: (req,res) => {
+        Pet.find({})
+        .then ((allPets)=>{
+            console.log(allPets);
+            res.json(allPets);
+        })
+        .catch ((err) => console.log(err))
+    },
+    getOnePet: (req,res) => {
+        Pet.findOne({_id: req.params.id})
+        .then ((onePet) =>{
+            console.log(onePet);
+            res.json(onePet);
+        })
+        .catch ((err) => console.log(err))
+    },
+    updatePet: (req, res) => {
+        Pet.findOneAndUpdate({_id: req.params.id},req.body,
+        {new: true , runValidators: true }
+        )
+        .then((updatedPet)=>{
+            console.log(updatedPet);
+            res.json(updatedPet);
+        })
+        .catch((err)=> console.log(err))
+    },
+    deletePet: (req,res)=>{
+        Pet.deleteOne({_id: req.params.id})
+        .then ((deletedPet)=>{
+            console.log(deletedPet);
+            res.json(deletedPet); 
+        })
+        .catch((err)=> console.log(err))
+
+}
+};
+

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 
 
-const EditAuthor = (props) =>{
+const EditAuthor = () =>{
     const {id} = useParams();
     const [author, setAuthor] = useState("");
     const navigate = useNavigate();
