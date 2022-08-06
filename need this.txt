@@ -14,7 +14,7 @@ https://www.frontendmentor.io/home
 https://react-bootstrap.github.io/
 
 week 4 day 2
-npm i -g nodemon 
+npm i -g nodemon (install once you have it allready)
 https://www.postman.com/downloads/
 https://fakerjs.dev/guide/
 MERN fullstack make your folders
@@ -26,18 +26,24 @@ MERN fullstack make your folders
         server.js - will handle all the server logic with express
 
 Once you have created the server.js file and the folders, open a new terminal window and navigate into your project folder (labeled as server in the image above) and install the server dependencies by running:
+create a server folder-
 SERVER______
 create server.js 
 npm init -y
 npm install mongoose express cors
 
-echo "node_modules">> .gitignore
+nodemon server.js (to start server in terminal 1)
+
+echo "node_modules">> .gitignore (too ignore node modeules if wanted
+
 
 Client
 
 npx create-react-app client (cd client folder)
 npm i axios
 npm i react-router-dom
+
+npm start (to run client in second terminal) 
 
 
 
