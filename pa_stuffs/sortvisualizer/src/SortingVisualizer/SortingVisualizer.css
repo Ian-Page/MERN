@@ -4,16 +4,16 @@ body{
 
 }
 .array-container{
-    position: absolute;
-    top: 400px
-  
+    display: flex;
+    justify-content: center;
+   
 }
 .array-bar{
     width: 15px;
     background-color: indigo;
     display: inline-block;
     margin: 0 2px;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 .buttons-row{
     display: flex;
