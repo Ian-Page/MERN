@@ -78,7 +78,8 @@ class Piano extends React.Component{
                 {audioFiles}
                 </div>
                 <div className='move-thought'>
-                    <div className='thought'><h2>Hi Sebastian! Your dad loves you so much that he made you this app ,so you can learn piano notes! I hope you become my little rockstar!</h2></div>
+                    <div className='thought'><h2>Hi Sebastian! Your dad loves you so much that he made you this app ,so you can learn 
+                        piano notes! I hope you become my little rockstar! Press the z,s,x,d,c,v,g,b,h,n,j,m keys to play it.</h2></div>
                 </div>
                 <div className='fish'></div>
             </div>
