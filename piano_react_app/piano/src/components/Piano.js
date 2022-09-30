@@ -69,7 +69,7 @@ class Piano extends React.Component{
             <div className='container'>
 
                 <div className='logo'>
-                    <h1>SeBASStiaN</h1>
+                    <h1>SeaBASStiaN</h1>
                 </div>
                 <div className='piano'>
                     {keys}
