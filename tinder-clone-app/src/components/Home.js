@@ -16,6 +16,7 @@ function Home (){
     
     return(
         <div class="Home">
+            
             {people.map(person =>(<TinderCard
             className="swipe"
             key={person.name}

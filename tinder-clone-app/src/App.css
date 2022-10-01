@@ -34,19 +34,30 @@ button:hover{
 }
 .card{
   height: 600px;
+  width: 600px;
   color:rgb(236, 167, 142);
-  margin: 30px;
+  margin: 20px;
   border-radius: 20px;
   padding: 5px;
   position: relative;
   box-shadow: 0px 0px 20px 5px grey;
   background-size: cover;
   background-position: center;
-  max-width: 600px;
+  
   
 
 }
+
+.swipe{
+  position: absolute;
+  
+}
+
 h3{
   margin: 20px;
 
+}
+.Home{
+  display:flex;
+  justify-content: center;
 }
