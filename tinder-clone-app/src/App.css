@@ -61,3 +61,11 @@ h3{
   display:flex;
   justify-content: center;
 }
+.bottom___buttons{
+  margin-top: 650px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+
+}

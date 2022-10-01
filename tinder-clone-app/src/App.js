@@ -5,6 +5,7 @@ import {BrowserRouter,Routes,Route ,} from 'react-router-dom';
 /*may not need link ^ */
 import Chat from './components/Chat';
 import Home from './components/Home';
+import BottomButtons from './components/BottomButtons';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Route path="/" element={<Home/>}/>
       
       </Routes>
-      </BrowserRouter>
+    </BrowserRouter>
+    <BottomButtons/>
     </div>
   );
 }
