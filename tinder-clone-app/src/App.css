@@ -23,13 +23,15 @@ body{
 code{
   font-family: sans-serif;
 }
-button{
+.button{
  border-style: none;
  background-color: white;
+ padding: 10px;
 }
-button:hover{
+.button:hover{
   background-color: rgb(233, 112, 68);
   border-radius: 50%;
+  
  
 }
 .card{
@@ -63,10 +65,10 @@ h3{
   justify-content: center;
 }
 .bottom___buttons{
-  margin-top: 650px;
+  margin-top: 655px;
   align-items: center;
   display: flex;
   justify-content: space-around;
   height: 50px;
-
+  
 }
