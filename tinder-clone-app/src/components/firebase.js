@@ -1,4 +1,6 @@
-import firebase from "firebase";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 const firebaseConfig = {
 
@@ -11,9 +13,8 @@ const firebaseConfig = {
     measurementId: "G-EPE7693ZR9"
 
 };
-const firebaseApp = firebase.intializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const database = firebaseApp.firestore();
 
 export default database;
-/*1:35:28*/

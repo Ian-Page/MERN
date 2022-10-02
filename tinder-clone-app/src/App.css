@@ -28,23 +28,24 @@ button{
  background-color: white;
 }
 button:hover{
-  background-color: rgb(236, 167, 142);
+  background-color: rgb(233, 112, 68);
   border-radius: 50%;
  
 }
 .card{
   height: 600px;
   width: 600px;
-  color:rgb(236, 167, 142);
+  color:rgb(239, 125, 32);
   margin: 20px;
   border-radius: 20px;
   padding: 5px;
   position: relative;
-  box-shadow: 0px 0px 20px 5px grey;
+  border-color: rgb(239, 125, 32);
+  border: 5px solid ;
   background-size: cover;
   background-position: center;
   
-  
+
 
 }
 

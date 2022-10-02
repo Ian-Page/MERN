@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import TinderCard from 'react-tinder-card'
+import database from './firebase';
 
 function Home (){
     const[people,setPeople]= useState([
@@ -14,6 +15,19 @@ function Home (){
         
     ]);
     
+    useEffect(()=>{
+
+        const unsubscribe = database.collection('people').onSnapshot(snapshot => (
+            setPeople(snapshot.docs.map(doc => doc.data()))
+        ));
+
+        return () => {
+            //clean up
+            unsubscribe();
+        };
+    },[]);
+
+
     return(
         <div class="Home">
             
