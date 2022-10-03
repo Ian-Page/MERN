@@ -29,10 +29,16 @@ code{
  padding: 10px;
 }
 .button:hover{
-  background-color: rgb(233, 112, 68);
-  border-radius: 50%;
+
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgb(239, 125, 32, 1) 100%); 
+border-radius: 50%;
   
- 
+/*tindercard-home*/
+}
+.Home{
+  display:flex;
+  justify-content: center;
 }
 .card{
   height: 600px;
@@ -46,9 +52,6 @@ code{
   border: 5px solid ;
   background-size: cover;
   background-position: center;
-  
-
-
 }
 
 .swipe{
@@ -60,10 +63,6 @@ h3{
   margin: 20px;
 
 }
-.Home{
-  display:flex;
-  justify-content: center;
-}
 .bottom___buttons{
   margin-top: 655px;
   align-items: center;
@@ -72,3 +71,6 @@ h3{
   height: 50px;
   
 }
+/*2:26:23*/
+
+/*chat*/
