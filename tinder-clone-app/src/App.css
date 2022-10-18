@@ -121,10 +121,12 @@ h3{
   text-align: center;
 }
 .profile-pic{
-  background-color: darkorange;
+  
   border-radius: 50%;
   height: 60px;
   width: 60px;
+  border-style: solid ;
+  border-color: rgb(239, 125, 32);
   
 }
 .message-box-wrapper{
