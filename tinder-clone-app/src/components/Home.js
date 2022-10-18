@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import TinderCard from 'react-tinder-card'
 import database from './firebase';
+import {Link} from 'react-router-dom';
 
 function Home (){
     const[people,setPeople]= useState([
@@ -29,7 +30,20 @@ function Home (){
 
 
     return(
+        
         <div class="Home">
+
+            <div class="header">
+                
+                <Link to="/profile"><img src="static\icons8-user-30.png" alt="profile" className="button"></img></Link>
+                
+                <Link to="/"><img src="static\icons8-orange-heart-48.png" alt="heart"></img></Link>
+
+                <Link to="/chat"><img src="static\icons8-chat-messages-32.png" alt="chat" className="button"/></Link>
+                
+                
+            </div>
+        <div>
             
             {people.map(person =>(<TinderCard
             className="swipe"
@@ -43,7 +57,18 @@ function Home (){
 
                 </div>
             </TinderCard>))}
+            </div>
+            
+            <div className="bottom-wrap">
+            <div class="bottom___buttons">
+            
+            <img src="\static\icons8-go-back-55.png" alt="go back" className="button"></img>
+            <img src="\static\icons8-multiply-48.png" alt="no-swipe-left" className="button"></img>
+            <img src="\static\icons8-heart-55.png" alt="yes-swipe-right" className="button"></img>
+            </div>
+            </div>
         </div>
+        
     )
 }
 

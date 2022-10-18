@@ -8,6 +8,10 @@ body{
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
+  background: linear-gradient(-45deg, rgb(239, 125, 32),  #fafafa,rgb(239, 125, 32));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
   
 }
 .header{
@@ -23,10 +27,11 @@ body{
 code{
   font-family: sans-serif;
 }
-.button{
+button{
  border-style: none;
- background-color: white;
+ background-color: rgb(239, 125, 32);;
  padding: 10px;
+ border-radius: 10px;
 }
 .button:hover{
 
@@ -37,14 +42,14 @@ border-radius: 50%;
 /*tindercard-home*/
 }
 .Home{
-  display:flex;
+  
   justify-content: center;
 }
 .card{
   height: 600px;
   width: 600px;
   color:rgb(239, 125, 32);
-  margin: 20px;
+ 
   border-radius: 20px;
   padding: 5px;
   position: relative;
@@ -69,8 +74,104 @@ h3{
   display: flex;
   justify-content: space-around;
   height: 50px;
-  
+  width: 600px;
 }
 /*2:26:23*/
 
 /*chat*/
+.bottom-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  
+  margin: 10px;
+  
+  
+}
+
+.form-container{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(239, 125, 32);
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  margin-top: 50%;
+}
+.form-field{
+  margin: 20px;
+  border-color: rgb(239, 125, 32);
+  border-style: solid;
+}
+
+.Chat{
+  margin: 60px;
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-color: rgb(239, 125, 32);
+  border-radius: 20px;
+  text-align: center;
+}
+.profile-pic{
+  background-color: darkorange;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  
+}
+.message-box-wrapper{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+
+  
+}
+.message-box-wrapper-match{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+
+  
+}
+.message-box{
+  width: 300px;
+  height: 60px;
+  background-color: darksalmon;
+  border-radius: 20px;
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  padding: 15px;
+}
+.message-box-match{
+  width: 300px;
+  height: 60px;
+  background-color: rgb(242, 199, 195);
+  border-radius: 20px;
+  display: flex;
+  justify-content: left;
+  margin-right: 15px;
+  padding: 15px;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
